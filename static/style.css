@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 500;
+  src: local('temm'),
+       url('gothic.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 300;
+  src: local('temmlight'),
+       url('gothiclight.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 700;
+  src: local('temmbold'),
+       url('gothicbold.ttf');
+}
+
+* {
+  font-family: Gotham !important;
+}
+
+body {
+  background-color: rgb(15, 16, 11);
+}
+
+.content {
+	width: 100vw;
+	min-height: 100vh;
+	background-color: rgb(15, 16, 11);
+	background-image: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding-top: 7rem;
+}
+
+.container {
+  padding-bottom: 2rem;
+}
+
+.clock {
+  font-size: 4rem;
+  font-weight: 200;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.date-label {
+	font-size: 2rem;
+}
+
+.form-control {
+	background-color: transparent;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: transparent !important;
+  border-color: white;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+	font-size: 4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding-bottom: 1rem;
+}
+

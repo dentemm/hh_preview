@@ -1,0 +1,12 @@
+{
+  "name": "hh_preview",
+  "version": "1.0.0",
+  "description": "e-learning platform teaser for health house",
+  "main": "src/index.js",
+  "author": "Tim Claes",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0"
+  }
+}
